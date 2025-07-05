@@ -15,7 +15,9 @@ let uniqueId = Symbol("id");
 let bigNumber = BigInt(1234567890123456789012345678901234567890);
 // Object variable
 let person = {
-    firstName: "John"
+    firstName: "John",
+    secondName: "Doe",
+    age: 30,
 };
 // Array variable
 let numbers = [1, 2, 3, 4, 5];
@@ -44,3 +46,4 @@ console.log(name); // Output: John Doe
 console.log(age); // Output: 30
 console.log(isEmployed); // Output: true
 console.log(middleName); // Output: null
+console.log(person.age)
